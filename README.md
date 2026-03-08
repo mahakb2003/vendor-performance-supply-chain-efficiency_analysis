@@ -1,196 +1,61 @@
-# 📊 Vendor Performance and Supply Chain Efficiency Analysis
+# 📊 Vendor Performance & Supply Chain Efficiency Analysis
 
-An **end-to-end data analytics project** that evaluates vendor performance, profitability, and inventory efficiency using **SQL, Python, and Power BI**.
+An **end-to-end data analytics project** analyzing vendor profitability, procurement efficiency, and inventory performance using **SQL, Python, and Power BI**.
 
-This project simulates a real-world business scenario where analysts examine vendor purchase and sales data to generate insights that support **procurement strategy, pricing decisions, and inventory optimization.**
-
----
-
-# 📌 Business Problem
-
-Companies working with multiple vendors must constantly monitor vendor performance to ensure:
-
-- High profitability  
-- Efficient procurement  
-- Optimal inventory turnover  
-
-However, large transactional datasets across purchasing, sales, and inventory systems make it difficult to quickly identify:
-
-- Underperforming vendors and brands  
-- Profitability differences across suppliers  
-- Inventory inefficiencies  
-- Cost benefits of bulk purchasing  
-
-This project builds a **data-driven framework** to analyze vendor performance and support better procurement decisions.
+This project simulates a **real-world supply chain analytics scenario** where a company evaluates vendor performance to improve procurement strategy, reduce inventory inefficiencies, and increase profitability.
 
 ---
 
-# 🎯 Project Goals
+ 📊 Power BI Dashboard
 
-The main goals of this analysis were to:
 
-- Evaluate vendor contribution to **revenue and profit**
-- Identify **low-performing brands**
-- Analyze the **impact of bulk purchasing**
-- Examine **inventory turnover efficiency**
-- Compare **profitability across vendors**
+![Dashboard](analysis/Dashboard.png)
 
----
+The interactive dashboard tracks key KPIs including:
 
-# ❓ Key Questions Answered
+- Vendor Profit Contribution
+- Profit Margin
+- Inventory Turnover
+- Procurement Cost Distribution
+- Vendor Purchase Contribution
 
-- Which brands are underperforming and need pricing or promotional adjustments?
-- Which vendors contribute the most to sales and profit?
-- How does bulk purchasing impact procurement cost?
-- Which vendors have inefficient inventory turnover?
-- How different is profitability between top and low-performing vendors?
+This dashboard helps stakeholders quickly identify **high-performing vendors, procurement risks, and inventory inefficiencies.**
 
 ---
 
-# 📊 Dataset
+🧠 Business Context
 
-The dataset contains multiple relational tables representing the purchasing and sales process.
+Organizations working with multiple vendors must continuously evaluate supplier performance to ensure:
 
-### Tables Used
+- Efficient procurement
+- High profitability
+- Optimal inventory turnover
+- Reduced supply chain risk
 
-- `begin_inventory`
-- `end_inventory`
-- `purchase_price`
-- `purchases`
-- `sales`
-- `vendor_invoice`
+However, large transactional datasets across purchasing and sales systems make it difficult to quickly identify performance issues.
 
-These tables were **cleaned, validated, and integrated** to create a final analytical dataset.
+This project builds a **data-driven vendor analytics framework** to support better procurement, pricing, and inventory decisions.
 
 ---
 
-# 🗃️ Final Analytical Dataset
+🎯 Business Impact
 
-A consolidated dataset called **`Vendor_sale_summary`** was created for analysis.
+The analysis revealed several important insights:
 
-### Key Metrics Included
+### Vendor Concentration Risk
 
-**Vendor Information**
+The **top 10 vendors contribute nearly 66% of total purchases**, creating dependency on a small group of suppliers and increasing supply chain risk.
 
-- VendorNumber  
-- VendorName  
-- Brand  
+### Unsold Inventory
 
-**Purchase Metrics**
+The analysis identified approximately **$2.7 million worth of unsold inventory**, indicating inefficient inventory turnover and capital tied up in stock.
 
-- PurchasePrice  
-- TotalPurchaseQuantity  
-- TotalPurchaseDollars  
+### Bulk Purchasing Efficiency
 
-**Sales Metrics**
-
-- TotalSalesQuantity  
-- TotalSalesDollars  
-
-**Operational Costs**
-
-- FreightCost  
-- ExciseTax  
-
-**Performance Metrics**
-
-- GrossProfit  
-- ProfitMargin  
-- StockTurnover  
-- SalesPurchaseRatio  
+Bulk purchasing analysis showed that high-volume procurement can lead to **up to 72% reduction in per-unit cost**, demonstrating strong cost advantages when purchasing at scale.
 
 ---
-
-# ⚙️ Project Workflow
-
-### 1️⃣ Data Preparation
-
-- Loaded raw data into **SQLite**
-- Cleaned and validated data using **SQL**
-- Ensured consistency across multiple tables
-
-### 2️⃣ Data Integration
-
-- Joined multiple tables
-- Created the final dataset **`Vendor_sale_summary`**
-
-### 3️⃣ Exploratory Data Analysis
-
-Using **Python (Pandas, NumPy)** to analyze:
-
-- Vendor sales performance
-- Profit margins
-- Inventory turnover
-
-Visualizations were created using **Matplotlib** and **Seaborn**.
-
-### 4️⃣ Statistical Analysis
-
-Used **SciPy hypothesis testing (t-tests)** to validate profitability differences between vendor groups.
-
-### 5️⃣ Dashboard Development
-
-Built an **interactive Power BI dashboard** for vendor performance monitoring.
-
----
-
-# 📈 Key Findings
-
-### 🥇 Vendor Dependency Risk
-
-The **top 10 vendors contributed nearly 66% of total purchases**, creating a potential **supply chain risk due to vendor concentration**.
-
----
-
-### 📦 Bulk Purchasing Efficiency
-
-Bulk purchasing resulted in approximately **72% reduction in per-unit cost**, demonstrating the cost advantages of high-volume procurement.
-
-However, excessive purchasing also contributed to **higher inventory holding costs**.
-
----
-
-### 📊 Unsold Inventory
-
-The analysis identified approximately **$2 million worth of unsold inventory**, indicating inefficient inventory turnover and capital tied up in stock.
-
----
-
-### 🔻 Underperforming Brands
-
-Some brands showed **low profit margins and high inventory levels**, suggesting weak demand or inefficient pricing strategies.
-
----
-
-# 📊 Power BI Dashboard
-
-An interactive dashboard was built to monitor vendor performance and support decision-making.
-
-### Dashboard Highlights
-
-- Vendor profit comparison
-- Brand-level performance analysis
-- Inventory turnover tracking
-- Procurement cost insights
-- Vendor ranking by profitability
-
-*(Insert Power BI screenshots here)*
-
----
-
-# 📊 Exploratory Data Visualizations
-
-*(Insert Python charts here)*
-
-Examples include:
-
-- Vendor profit distribution
-- Inventory turnover analysis
-- Purchase vs sales trends
-
----
-
-# 🛠️ Tools Used
+ 🛠 Tech Stack
 
 ### Data Processing
 - SQL
@@ -206,94 +71,209 @@ Examples include:
 - Seaborn
 - Power BI
 
-### Statistical Testing
+### Statistical Analysis
 - SciPy
 
 ### Development Environment
 - Jupyter Notebook
+- VS Code
 
 ---
 
-# 📂 Project Structure
-# 📂 Project Structure
+⚙️ Data Pipeline & Workflow
+
+## Data Ingestion
+
+A Python pipeline was built to ingest and structure raw datasets.
+
+Script used:
+
+`ingestion.py`
+
+The script:
+
+- Reads dataset tables
+- Connects Python with **SQLite3**
+- Loads data into a relational database called:
+
+`inventory.db`
+
+---
+
+## Dataset Tables
+
+The dataset contains multiple relational tables representing purchasing and sales processes.
+
+Tables included in the dataset:
+
+- begin_inventory
+- end_inventory
+- purchases
+- purchase_price
+- vendor_invoice
+- sales
+
+For the final analysis, the following tables were used:
+
+- purchases
+- purchase_price
+- vendor_invoice
+- sales
+
+The inventory tables were not required for the analytical model.
+
+---
+
+## Data Integration
+
+A consolidated analytical dataset called:
+
+`vendor_sales_summary`
+
+was created by combining purchasing, pricing, invoice, and sales data.
+
+The dataset contains key metrics such as:
+
+- Vendor Information
+- Total Purchase Value
+- Total Sales Revenue
+- Vendor Profit
+- Profit Margin
+- Inventory Turnover
+- Procurement Cost
+
+---
+
+## Query Optimization
+
+The **sales table contains more than 10 million records**, making queries computationally expensive.
+
+To improve performance:
+
+- SQL **Common Table Expressions (CTEs)** were used
+- Large tables were pre-aggregated before joins
+
+This reduced query execution time and improved scalability.
+
+---
+
+## Data Cleaning
+
+Before analysis, the dataset was validated by:
+
+- Handling missing values
+- Removing inconsistencies
+- Standardizing vendor and brand information
+- Validating financial metrics
+
+---
+
+## Data Export
+
+The final dataset `vendor_sales_summary` was stored in:
+
+- SQLite database → `inventory.db`
+- CSV file → `vendor_sales_summary.csv`
+
+This allowed seamless integration with **Python analysis and Power BI dashboards.**
+
+---
+
+📊 Analytical Questions Solved
+
+This project answers key business questions:
+
+### 1. Which brands show low sales but high profit margins, indicating a need for promotional pricing?
+
+![Low Sales High Profit Brands](analysis/low_sales_high_profit_brands_06.png)
 
 
-Vendor-Performance-Analysis
-│
-├── data
-│ ├── raw_tables
-│ └── processed_data
-│
-├── notebooks
-│ └── vendor_analysis.ipynb
-│
-├── sql
-│ └── data_cleaning_queries.sql
-│
-├── powerbi
-│ └── vendor_dashboard.pbix
-│
-├── images
-│ └── dashboard_screenshots
-│
-└── README.md.
+### 2. Which vendors and brands generate the highest sales performance?
 
+![Top Vendors and Brands Sales](analysis/top_vendors_and_brands_sales_07.png)
+
+
+### 3. Which vendors contribute the largest share of purchase orders?
+
+![Vendor Contribution to Total Purchases](analysis/vendor_contribution_total_purchases.png)
+
+
+### 4. How dependent is procurement on top vendors?
+
+![Vendor Purchase Contribution](analysis/vendor_purchase_contribution_09.png)
+
+
+### 5. Does bulk purchasing reduce unit cost, and what is the optimal purchase volume?
+
+![Bulk Purchase Unit Price Boxplot](analysis/bulk_purchase_unit_price_boxplot_10.png)
+
+
+### 6. Which vendors have low inventory turnover, indicating slow-moving products?
+
+![Stock Turnover Analysis](analysis/stockturnover.png)
+
+
+### 7. How much capital is locked in unsold inventory per vendor?
+
+![Top 10 Vendors with Unsold Inventory](analysis/top_10_vendor_with_unsold_inventory.png)
+
+
+### 8. Is there a statistically significant difference in profit margins between top and low-performing vendors?
+
+![T-Test Profit Margin Comparison](analysis/ttest.png)
+
+---
+
+📊 Exploratory Data Analysis
+
+The analysis was performed using **Python (Pandas, NumPy)** and visualized with **Matplotlib and Seaborn**.
+
+Add analysis charts below:
+
+![Analysis1](analysis/chart1.png)
+![Analysis2](analysis/chart2.png)
+![Analysis3](analysis/chart3.png)
+
+These visualizations reveal patterns in:
+
+- Vendor profitability
+- Inventory turnover
+- Sales vs purchase performance
+- Bulk purchasing efficiency
 
 ---
 
 # 🚀 Business Recommendations
 
 ### Vendor Diversification
-
-Since **66% of purchases depend on only 10 vendors**, the company should diversify suppliers to reduce supply chain risk and improve negotiation leverage.
-
----
-
-### Demand-Driven Procurement
-
-Although bulk purchasing reduces unit costs, procurement decisions should be aligned with **sales demand and inventory turnover** to avoid overstocking.
-
----
+Since **66% of procurement depends on only 10 vendors**, companies should diversify suppliers to reduce supply chain risk.
 
 ### Inventory Optimization
+The presence of **$2.7M in unsold inventory** suggests the need for improved inventory monitoring and demand forecasting.
 
-The **$2M unsold inventory** suggests the need for improved stock management.
+### Pricing Strategy
+Brands with **high margins but low sales performance** should be evaluated for promotional pricing strategies.
 
-Recommended actions:
-
-- Implement inventory turnover monitoring
-- Reduce purchasing of slow-moving brands
-- Introduce automated reorder thresholds
-
----
-
-### Pricing and Promotion Strategy
-
-Low-performing brands should be evaluated for:
-
-- Discount campaigns
-- Bundling strategies
-- Targeted promotions
-
-This will help improve **inventory turnover and profitability**.
+### Demand-Driven Procurement
+Bulk purchasing should be aligned with **actual demand** to balance cost savings and inventory efficiency.
 
 ---
 
 # 👩‍💻 Author
 
 **Mahak Bisht**  
-Aspiring **Business Analyst / Data Analyst**
+Aspiring **Data Analyst / Business Analyst**
 
-### Skills
+**Skills**
 
-- Python  
 - SQL  
+- Python  
 - Power BI  
-- Data Analysis  
+- Data Analytics  
 - Business Intelligence  
 
 🔗 LinkedIn  
-https://www.linkedin.com/in/mahak-bisht-79241528a
+https://www.linkedin.com/in/mahak-bisht-79241528a  
 
 🔗 GitHub  
 https://github.com/mahakb2003
