@@ -6,13 +6,10 @@ This project simulates a **real-world supply chain analytics scenario** where a 
 
 ---
 
- # 📊 Power BI Dashboard
-
-
 ## 📊 Power BI Dashboard
 
 <p align="center">
-<img src="analysis/Dashboard.png" width="850">
+<img src="analysis/Dashboard.png" width="700">
 </p>
 
 The interactive dashboard tracks key KPIs including:
@@ -153,7 +150,10 @@ To improve performance:
 - Large tables were pre-aggregated before joins
 
 This reduced query execution time and improved scalability.
-![Query Optimization](performace_optimization.png)
+
+<p align="center">
+  <img src="performace_optimization.png" width="500">
+</p>
 ---
 
 ## Data Cleaning
@@ -184,24 +184,30 @@ This project answers key business questions:
 
 ### 1. Which brands show low sales but high profit margins, indicating a need for promotional pricing?
 
-![Low Sales High Profit Brands](analysis/low_sales_high_profit_brands_06.png)
+<p align="center">
+<img src="analysis/low_sales_high_profit_brands_06" width="500">
+</p>
 
 
 ### 2. Which vendors and brands generate the highest sales performance?
 
 <p align="center">
-<img src="analysis/top_vendors_and_brands_sales_07.png" width="650">
+<img src="analysis/top_vendors_and_brands_sales_07.png" width="500">
 </p>
 
 
 ### 3. Which vendors contribute the largest share of purchase orders?
 
-![Vendor Contribution to Total Purchases](analysis/vendor_contribution_total_purchases_08.png)
+<p align="center">
+<img src="analysis/analysis/vendor_contribution_total_purchases_08.png" width="500">
+</p>
 
 
 ### 4. How dependent is procurement on top vendors?
 
-![Vendor Purchase Contribution](analysis/vendor_purchase_contribution_09.png)
+<p align="center">
+<img src="analysis/analysis/vendor_purchase_contribution_09.png" width="500">
+</p>
 
 
 ### 5. Does bulk purchasing reduce unit cost, and what is the optimal purchase volume?
