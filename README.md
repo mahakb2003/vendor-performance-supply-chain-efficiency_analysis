@@ -155,7 +155,7 @@ To improve performance:
 - Large tables were pre-aggregated before joins
 
 This reduced query execution time and improved scalability.
-
+![Query Optimization](performance_optimization.png)
 ---
 
 ## Data Cleaning
@@ -211,12 +211,12 @@ This project answers key business questions:
 
 ### 6. Which vendors have low inventory turnover, indicating slow-moving products?
 
-![Stock Turnover Analysis](analysis/stockturnover.png)
+![Stock Turnover Analysis](analysis/StockTurnover.png)
 
 
 ### 7. How much capital is locked in unsold inventory per vendor?
 
-![Top 10 Vendors with Unsold Inventory](analysis/top_10_vendor_with_unsold_inventory.png)
+![Top 10 Vendors with Unsold Inventory](analysis/top_10_ vendor_with_unsold_inventory.png)
 
 
 ### 8. Is there a statistically significant difference in profit margins between top and low-performing vendors?
@@ -229,11 +229,13 @@ This project answers key business questions:
 
 The analysis was performed using **Python (Pandas, NumPy)** and visualized with **Matplotlib and Seaborn**.
 
-Add analysis charts below:
 
-![Analysis1](analysis/chart1.png)
-![Analysis2](analysis/chart2.png)
-![Analysis3](analysis/chart3.png)
+![Analysis1](analysis/categorical_count_distribution.png)
+![Analysis2](analysis/correlation_heatmap_05.png)
+![Analysis3](analysis/numerical_distribution_plots_01.png)
+![Analysis4](analysis/outliers_boxplot_02.png)
+![Analysis5](analysis/top_vendors_and_brands_sales_07.png)
+
 
 These visualizations reveal patterns in:
 
