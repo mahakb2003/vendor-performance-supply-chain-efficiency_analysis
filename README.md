@@ -46,7 +46,7 @@ The analysis revealed several important insights:
 
 The **top 10 vendors contribute nearly 66% of total purchases**, creating dependency on a small group of suppliers and increasing supply chain risk.
 
-###2. Unsold Inventory
+### 2. Unsold Inventory
 
 The analysis identified approximately **$2.7 million worth of unsold inventory**, indicating inefficient inventory turnover and capital tied up in stock.
 
