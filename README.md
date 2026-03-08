@@ -42,15 +42,15 @@ This project builds a **data-driven vendor analytics framework** to support bett
 
 The analysis revealed several important insights:
 
-### Vendor Concentration Risk
+### 1. Vendor Concentration Risk
 
 The **top 10 vendors contribute nearly 66% of total purchases**, creating dependency on a small group of suppliers and increasing supply chain risk.
 
-### Unsold Inventory
+###2. Unsold Inventory
 
 The analysis identified approximately **$2.7 million worth of unsold inventory**, indicating inefficient inventory turnover and capital tied up in stock.
 
-### Bulk Purchasing Efficiency
+### 3. Bulk Purchasing Efficiency
 
 Bulk purchasing analysis showed that high-volume procurement can lead to **up to 72% reduction in per-unit cost**, demonstrating strong cost advantages when purchasing at scale.
 
@@ -273,8 +273,10 @@ Aspiring **Data Analyst / Business Analyst**
 - Data Analytics  
 - Business Intelligence  
 
+Author 
+Mahak Bisht
+mail : mahak.bisht2003@gmail.com
 🔗 LinkedIn  
 https://www.linkedin.com/in/mahak-bisht-79241528a  
-
 🔗 GitHub  
 https://github.com/mahakb2003
