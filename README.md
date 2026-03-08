@@ -9,7 +9,11 @@ This project simulates a **real-world supply chain analytics scenario** where a 
  # 📊 Power BI Dashboard
 
 
-![Dashboard](analysis/Dashboard.png)
+## 📊 Power BI Dashboard
+
+<p align="center">
+<img src="analysis/Dashboard.png" width="850">
+</p>
 
 The interactive dashboard tracks key KPIs including:
 
@@ -18,8 +22,6 @@ The interactive dashboard tracks key KPIs including:
 - Inventory Turnover
 - Procurement Cost Distribution
 - Vendor Purchase Contribution
-
-This dashboard helps stakeholders quickly identify **high-performing vendors, procurement risks, and inventory inefficiencies.**
 
 ---
 
@@ -187,7 +189,9 @@ This project answers key business questions:
 
 ### 2. Which vendors and brands generate the highest sales performance?
 
-![Top Vendors and Brands Sales](analysis/top_vendors_and_brands_sales_07.png)
+<p align="center">
+<img src="analysis/top_vendors_and_brands_sales_07.png" width="650">
+</p>
 
 
 ### 3. Which vendors contribute the largest share of purchase orders?
