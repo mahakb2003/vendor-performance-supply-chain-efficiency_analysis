@@ -137,7 +137,6 @@ The dataset contains key metrics such as:
 - Profit Margin
 - Inventory Turnover
 - Procurement Cost
-
 ---
 
 ## Query Optimization
@@ -148,14 +147,12 @@ To improve performance:
 
 - SQL **Common Table Expressions (CTEs)** were used
 - Large tables were pre-aggregated before joins
-
 This reduced query execution time and improved scalability.
 
 <p align="center">
   <img src="performace_optimization.png" width="500">
 </p>
 ---
-
 ## Data Cleaning
 
 Before analysis, the dataset was validated by:
