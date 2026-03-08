@@ -87,7 +87,6 @@ Script used:
 `ingestion.py`
 
 The script:
-
 - Reads dataset tables
 - Connects Python with **SQLite3**
 - Loads data into a relational database called:
@@ -97,11 +96,8 @@ The script:
 ---
 
 ## Dataset Tables
-
 The dataset contains multiple relational tables representing purchasing and sales processes.
-
 Tables included in the dataset:
-
 - begin_inventory
 - end_inventory
 - purchases
@@ -110,7 +106,6 @@ Tables included in the dataset:
 - sales
 
 For the final analysis, the following tables were used:
-
 - purchases
 - purchase_price
 - vendor_invoice
@@ -150,7 +145,7 @@ To improve performance:
 This reduced query execution time and improved scalability.
 
 <p align="center">
-  <img src="performace_optimization.png" width="500">
+  <img src="performace_optimization.png" alt="Query Optimization" width="500">
 </p>
 ---
 ## Data Cleaning
