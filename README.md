@@ -293,6 +293,7 @@ Brands with **high margins but low sales performance** should be evaluated for p
 
 ### -  Demand-Driven Procurement
 Bulk purchasing should be aligned with **actual demand** to balance cost savings and inventory efficiency.
+
 ---
 
 # 👩‍💻 Author
@@ -308,7 +309,7 @@ Aspiring **Data Analyst / Business Analyst**
 - Business Intelligence
 
 mail : mahak.bisht2003@gmail.com
-🔗 LinkedIn  
+🔗 LinkedIn 
 https://www.linkedin.com/in/mahak-bisht-79241528a  
 🔗 GitHub  
 https://github.com/mahakb2003
