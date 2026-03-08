@@ -145,24 +145,21 @@ To improve performance:
 This reduced query execution time and improved scalability.
 
 <p align="center">
-  <img src="performace_optimization.png" alt="Query Optimization" width="500">
+  <img src="analysis/performace_optimization.png" alt="Query Optimization" width="500">
 </p>
----
+
 ## Data Cleaning
 
 Before analysis, the dataset was validated by:
-
 - Handling missing values
 - Removing inconsistencies
 - Standardizing vendor and brand information
 - Validating financial metrics
-
 ---
 
 ## Data Export
 
 The final dataset `vendor_sales_summary` was stored in:
-
 - SQLite database → `inventory.db`
 - CSV file → `vendor_sales_summary.csv`
 
@@ -187,56 +184,69 @@ This project answers key business questions:
 <img src="analysis/top_vendors_and_brands_sales_07.png" width="500">
 </p>
 
-
 ### 3. Which vendors contribute the largest share of purchase orders?
 
 <p align="center">
-<img src="analysis/analysis/vendor_contribution_total_purchases_08.png" width="500">
+<img src="analysis/vendor_contribution_total_purchases_08.png" width="500">
 </p>
-
 
 ### 4. How dependent is procurement on top vendors?
 
 <p align="center">
-<img src="analysis/analysis/vendor_purchase_contribution_09.png" width="500">
+<img src="analysis/vendor_purchase_contribution_09.png" width="500">
 </p>
-
 
 ### 5. Does bulk purchasing reduce unit cost, and what is the optimal purchase volume?
 
-![Bulk Purchase Unit Price Boxplot](analysis/bulk_purchase_unit_price_boxplot_10.png)
-
+<p align="center">
+<img src="analysis/bulk_purchase_unit_price_boxplot_10.png" width="500">
+</p>
 
 ### 6. Which vendors have low inventory turnover, indicating slow-moving products?
 
-![Stock Turnover Analysis](analysis/StockTurnover.png)
-
+<p align="center">
+<img src="analysis/StockTurnover.png" width="500">
+</p>
 
 ### 7. How much capital is locked in unsold inventory per vendor?
 
-![Top 10 Vendors with Unsold Inventory](analysis/top_10_vendor_with_unsold_inventory.png)
-
+<p align="center">
+<img src="analysis/top_10_vendor_with_unsold_inventory.png" width="500">
+</p>
 
 ### 8. Is there a statistically significant difference in profit margins between top and low-performing vendors?
 
-![T-Test Profit Margin Comparison](analysis/ttest.png)
+<p align="center">
+<img src="analysis/ttest.png" width="500">
+</p>
 
 ---
 
  # 📊 Exploratory Data Analysis
 
+# 📊 Exploratory Data Analysis
+
 The analysis was performed using **Python (Pandas, NumPy)** and visualized with **Matplotlib and Seaborn**.
 
+<p align="center">
+<img src="analysis/categorical_count_distribution_04.png" width="650">
+</p>
 
-![Analysis1](analysis/categorical_count_distribution_04.png)
+<p align="center">
+<img src="analysis/correlation_heatmap_05.png" width="650">
+</p>
 
-![Analysis2](analysis/correlation_heatmap_05.png)
+<p align="center">
+<img src="analysis/numerical_distribution_plots_01.png" width="650">
+</p>
 
-![Analysis3](analysis/numerical_distribution_plots_01.png)
+<p align="center">
+<img src="analysis/outliers_boxplot_02.png" width="650">
+</p>
 
-![Analysis4](analysis/outliers_boxplot_02.png)
-
-![Analysis5](analysis/top_vendors_and_brands_sales_07.png)
+<p align="center">
+<img src="analysis/top_vendors_and_brands_sales_07.png" width="650">
+</p>
 
 
 These visualizations reveal patterns in:
@@ -261,7 +271,6 @@ Brands with **high margins but low sales performance** should be evaluated for p
 
 ### -  Demand-Driven Procurement
 Bulk purchasing should be aligned with **actual demand** to balance cost savings and inventory efficiency.
-
 ---
 
 # 👩‍💻 Author
@@ -270,15 +279,12 @@ Bulk purchasing should be aligned with **actual demand** to balance cost savings
 Aspiring **Data Analyst / Business Analyst**
 
 **Skills**
-
 - SQL  
 - Python  
 - Power BI  
 - Data Analytics  
-- Business Intelligence  
+- Business Intelligence
 
-Author 
-Mahak Bisht
 mail : mahak.bisht2003@gmail.com
 🔗 LinkedIn  
 https://www.linkedin.com/in/mahak-bisht-79241528a  
