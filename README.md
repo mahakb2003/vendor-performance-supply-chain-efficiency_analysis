@@ -174,7 +174,7 @@ This project answers key business questions:
 ### 1. Which brands show low sales but high profit margins, indicating a need for promotional pricing?
 
 <p align="center">
-<img src="analysis/low_sales_high_profit_brands_06" width="500">
+<img src="analysis/low_sales_high_profit_brands_06.png" width="500">
 </p>
 
 
@@ -221,33 +221,42 @@ This project answers key business questions:
 </p>
 
 ---
-
- # 📊 Exploratory Data Analysis
-
 # 📊 Exploratory Data Analysis
-
 The analysis was performed using **Python (Pandas, NumPy)** and visualized with **Matplotlib and Seaborn**.
+
+<p align="center"><b>Categorical Feature Distribution</b></p>
 
 <p align="center">
 <img src="analysis/categorical_count_distribution_04.png" width="650">
 </p>
 
+
+<p align="center"><b>Correlation Heatmap of Key Variables</b></p>
+
 <p align="center">
 <img src="analysis/correlation_heatmap_05.png" width="650">
 </p>
+
+
+<p align="center"><b>Numerical Feature Distribution</b></p>
 
 <p align="center">
 <img src="analysis/numerical_distribution_plots_01.png" width="650">
 </p>
 
+
+<p align="center"><b>Outlier Detection using Boxplots</b></p>
+
 <p align="center">
 <img src="analysis/outliers_boxplot_02.png" width="650">
 </p>
 
+
+<p align="center"><b>Top Vendors and Brands by Sales Performance</b></p>
+
 <p align="center">
 <img src="analysis/top_vendors_and_brands_sales_07.png" width="650">
 </p>
-
 
 These visualizations reveal patterns in:
 
