@@ -61,20 +61,16 @@ Bulk purchasing analysis showed that high-volume procurement can lead to **up to
 ### Data Processing
 - SQL
 - SQLite
-
 ### Data Analysis
 - Python
 - Pandas
 - NumPy
-
 ### Data Visualization
 - Matplotlib
 - Seaborn
 - Power BI
-
 ### Statistical Analysis
 - SciPy
-
 ### Development Environment
 - Jupyter Notebook
 - VS Code
@@ -155,7 +151,7 @@ To improve performance:
 - Large tables were pre-aggregated before joins
 
 This reduced query execution time and improved scalability.
-![Query Optimization](performance_optimization.png)
+![Query Optimization](performace_optimization.png)
 ---
 
 ## Data Cleaning
@@ -196,7 +192,7 @@ This project answers key business questions:
 
 ### 3. Which vendors contribute the largest share of purchase orders?
 
-![Vendor Contribution to Total Purchases](analysis/vendor_contribution_total_purchases.png)
+![Vendor Contribution to Total Purchases](analysis/vendor_contribution_total_purchases_08.png)
 
 
 ### 4. How dependent is procurement on top vendors?
@@ -216,7 +212,7 @@ This project answers key business questions:
 
 ### 7. How much capital is locked in unsold inventory per vendor?
 
-![Top 10 Vendors with Unsold Inventory](analysis/top_10_ vendor_with_unsold_inventory.png)
+![Top 10 Vendors with Unsold Inventory](analysis/top_10_vendor_with_unsold_inventory.png)
 
 
 ### 8. Is there a statistically significant difference in profit margins between top and low-performing vendors?
@@ -230,10 +226,14 @@ This project answers key business questions:
 The analysis was performed using **Python (Pandas, NumPy)** and visualized with **Matplotlib and Seaborn**.
 
 
-![Analysis1](analysis/categorical_count_distribution.png)
+![Analysis1](analysis/categorical_count_distribution_04.png)
+
 ![Analysis2](analysis/correlation_heatmap_05.png)
+
 ![Analysis3](analysis/numerical_distribution_plots_01.png)
+
 ![Analysis4](analysis/outliers_boxplot_02.png)
+
 ![Analysis5](analysis/top_vendors_and_brands_sales_07.png)
 
 
@@ -248,16 +248,16 @@ These visualizations reveal patterns in:
 
 # 🚀 Business Recommendations
 
-### Vendor Diversification
+### -  Vendor Diversification
 Since **66% of procurement depends on only 10 vendors**, companies should diversify suppliers to reduce supply chain risk.
 
-### Inventory Optimization
+### -  Inventory Optimization
 The presence of **$2.7M in unsold inventory** suggests the need for improved inventory monitoring and demand forecasting.
 
-### Pricing Strategy
+### - Pricing Strategy
 Brands with **high margins but low sales performance** should be evaluated for promotional pricing strategies.
 
-### Demand-Driven Procurement
+### -  Demand-Driven Procurement
 Bulk purchasing should be aligned with **actual demand** to balance cost savings and inventory efficiency.
 
 ---
