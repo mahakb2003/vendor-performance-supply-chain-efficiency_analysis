@@ -6,7 +6,7 @@ This project simulates a **real-world supply chain analytics scenario** where a 
 
 ---
 
- 📊 Power BI Dashboard
+ # 📊 Power BI Dashboard
 
 
 ![Dashboard](analysis/Dashboard.png)
@@ -23,7 +23,7 @@ This dashboard helps stakeholders quickly identify **high-performing vendors, pr
 
 ---
 
-🧠 Business Context
+# 🧠 Business Context
 
 Organizations working with multiple vendors must continuously evaluate supplier performance to ensure:
 
@@ -38,7 +38,7 @@ This project builds a **data-driven vendor analytics framework** to support bett
 
 ---
 
-🎯 Business Impact
+# 🎯 Business Impact
 
 The analysis revealed several important insights:
 
@@ -55,7 +55,8 @@ The analysis identified approximately **$2.7 million worth of unsold inventory**
 Bulk purchasing analysis showed that high-volume procurement can lead to **up to 72% reduction in per-unit cost**, demonstrating strong cost advantages when purchasing at scale.
 
 ---
- 🛠 Tech Stack
+
+# 🛠 Tech Stack
 
 ### Data Processing
 - SQL
@@ -80,7 +81,7 @@ Bulk purchasing analysis showed that high-volume procurement can lead to **up to
 
 ---
 
-⚙️ Data Pipeline & Workflow
+# ⚙️ Data Pipeline & Workflow
 
 ## Data Ingestion
 
@@ -179,7 +180,7 @@ This allowed seamless integration with **Python analysis and Power BI dashboards
 
 ---
 
-📊 Analytical Questions Solved
+# 📊 Analytical Questions Solved
 
 This project answers key business questions:
 
@@ -224,7 +225,7 @@ This project answers key business questions:
 
 ---
 
-📊 Exploratory Data Analysis
+ # 📊 Exploratory Data Analysis
 
 The analysis was performed using **Python (Pandas, NumPy)** and visualized with **Matplotlib and Seaborn**.
 
