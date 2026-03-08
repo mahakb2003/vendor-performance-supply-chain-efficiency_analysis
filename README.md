@@ -123,23 +123,36 @@ A consolidated analytical dataset called:
 
 was created by combining purchasing, pricing, invoice, and sales data.
 
-The dataset contains key metrics such as:
+## 📂 Vendor Sales Summary Dataset
 
-- Vendor Information
-- Total Purchase Value
-- Total Sales Revenue
-- Vendor Profit
-- Profit Margin
-- Inventory Turnover
-- Procurement Cost
+This consolidated dataset enables comprehensive analysis of vendor performance, procurement efficiency, and profitability.
+
+### Dataset Columns
+
+- VendorNumber
+- VendorName
+- Brand
+- Description
+- PurchasePrice
+- ActualPrice
+- Volume
+- TotalPurchaseQuantity
+- TotalPurchaseDollars
+- TotalSalesQuantity
+- TotalSalesDollars
+- TotalSalesPrice
+- TotalExciseTax
+- FreightCost
+- GrossProfit
+- ProfitMargin
+- StockTurnover
+- SalesPurchaseRatio
 ---
 
 ## Query Optimization
 
 The **sales table contains more than 10 million records**, making queries computationally expensive.
-
 To improve performance:
-
 - SQL **Common Table Expressions (CTEs)** were used
 - Large tables were pre-aggregated before joins
 This reduced query execution time and improved scalability.
