@@ -12,7 +12,11 @@ This project simulates a **real-world supply chain analytics scenario** where a 
 ## 📊 Power BI Dashboard
 
 <p align="center">
-<img src="analysis/Dashboard.png" width="850">
+  <img src="analysis/Dashboard_1.png" width="700">
+</p>
+
+<p align="center">
+  <img src="analysis/Dashboard_2.png" width="700">
 </p>
 
 The interactive dashboard tracks key KPIs including:
