@@ -9,8 +9,6 @@ This project simulates a **real-world supply chain analytics scenario** where a 
  # 📊 Power BI Dashboard
 
 
-## 📊 Power BI Dashboard
-
 <p align="center">
   <img src="analysis/Dashboard_1.png" width="700">
 </p>
