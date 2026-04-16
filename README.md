@@ -155,7 +155,7 @@ To improve performance:
 - Large tables were pre-aggregated before joins
 
 This reduced query execution time and improved scalability.
-![Query Optimization](performace_optimization.png)
+![Query Optimization](analysis/performace_optimization.png)
 ---
 
 ## Data Cleaning
